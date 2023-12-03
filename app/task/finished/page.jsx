@@ -1,8 +1,10 @@
-import Container from '@/components/container'
-import TodoItem from '@/components/todo-item'
-import { Card } from '@/components/ui/card'
-import prisma from '@/lib/prisma'
-import React from 'react'
+import Container from '@/components/container';
+import TodoItem from '@/components/todo-item';
+import { Card } from '@/components/ui/card';
+
+import prisma from '@/lib/prisma';
+
+export const dynamic = 'force-dynamic';
 
 const FinishedPage = async () => {
     const getFinishedTasks = await prisma.todo.findMany({

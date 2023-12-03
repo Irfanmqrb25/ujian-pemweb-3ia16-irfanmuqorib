@@ -5,6 +5,8 @@ import Container from "@/components/container";
 
 import prisma from "@/lib/prisma";
 
+export const dynamic = 'force-dynamic'
+
 
 export default async function Home() {
   const getTask = await prisma.todo.findMany({
