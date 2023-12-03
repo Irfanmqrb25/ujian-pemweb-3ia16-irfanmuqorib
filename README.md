@@ -15,4 +15,4 @@
 
 ## Deploy On Vercel
 
-Berikut link project yang telah di deploy: [Click Here](https://taskify.irfanmuqorib.dev/task/finished).
+Berikut link project yang telah di deploy: [Click Here](https://taskify.irfanmuqorib.dev).
